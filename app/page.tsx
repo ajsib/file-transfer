@@ -36,7 +36,7 @@ const Page = () => {
 };
 
 // Inline CSS styles
-const styles = {
+const styles: { [key: string]: React.CSSProperties } = {
     container: {
         textAlign: 'center',
     },
